@@ -1,0 +1,9 @@
+testEndpoint: https://bstackdemo.com
+
+driverType: onPremDriver
+
+onPremDriver:
+  platforms:
+    - name: chrome[on-premise]
+      browser: chrome
+      driverPath: /opt/libs/drivers/chromedriver
