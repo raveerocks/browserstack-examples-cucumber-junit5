@@ -23,7 +23,7 @@ public class JunitSampleTest {
     @Test
     public void runWebDriverTests() {
         String[] argv = new String[]{
-                CommandlineOptions.THREADS, "1",
+                CommandlineOptions.THREADS, THREADS,
                 CommandlineOptions.PLUGIN, "com.browserstack.rerun.RerunExecutionManager:2",
                 CommandlineOptions.PLUGIN, "com.browserstack.report.CustomReportListener:custom/reports",
                 CommandlineOptions.PLUGIN,"com.browserstack.logger.EventLogger",
